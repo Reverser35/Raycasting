@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983D8BB916ACC638008C72A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983D8BB816ACC638008C72A4 /* main.cpp */; };
+		983D8BC816ACC688008C72A4 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 983D8BC616ACC67C008C72A4 /* SDLMain.m */; };
+		983D8BCA16ACC68E008C72A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983D8BC916ACC68E008C72A4 /* Cocoa.framework */; };
+		98DF8CFD16D3975700F1F6E5 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DF8CFC16D3975700F1F6E5 /* SDL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		983D8BB216ACC638008C72A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		983D8BB416ACC638008C72A4 /* Raycasting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raycasting; sourceTree = BUILT_PRODUCTS_DIR; };
+		983D8BB816ACC638008C72A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		983D8BC516ACC67C008C72A4 /* SDLMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		983D8BC616ACC67C008C72A4 /* SDLMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		983D8BC916ACC68E008C72A4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		983D8BCD16ACC92F008C72A4 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		98DF8CFC16D3975700F1F6E5 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../../../../Library/Frameworks/SDL.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983D8BB116ACC638008C72A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DF8CFD16D3975700F1F6E5 /* SDL.framework in Frameworks */,
+				983D8BCA16ACC68E008C72A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983D8BA916ACC638008C72A4 = {
+			isa = PBXGroup;
+			children = (
+				98DF8CFC16D3975700F1F6E5 /* SDL.framework */,
+				983D8BC916ACC68E008C72A4 /* Cocoa.framework */,
+				983D8BB716ACC638008C72A4 /* Raycasting */,
+				983D8BB516ACC638008C72A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		983D8BB516ACC638008C72A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983D8BB416ACC638008C72A4 /* Raycasting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983D8BB716ACC638008C72A4 /* Raycasting */ = {
+			isa = PBXGroup;
+			children = (
+				983D8BC516ACC67C008C72A4 /* SDLMain.h */,
+				983D8BC616ACC67C008C72A4 /* SDLMain.m */,
+				983D8BCD16ACC92F008C72A4 /* main.h */,
+				983D8BB816ACC638008C72A4 /* main.cpp */,
+			);
+			path = Raycasting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983D8BB316ACC638008C72A4 /* Raycasting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983D8BBE16ACC638008C72A4 /* Build configuration list for PBXNativeTarget "Raycasting" */;
+			buildPhases = (
+				983D8BB016ACC638008C72A4 /* Sources */,
+				983D8BB116ACC638008C72A4 /* Frameworks */,
+				983D8BB216ACC638008C72A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raycasting;
+			productName = Raycasting;
+			productReference = 983D8BB416ACC638008C72A4 /* Raycasting */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983D8BAB16ACC638008C72A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Reverser35;
+			};
+			buildConfigurationList = 983D8BAE16ACC638008C72A4 /* Build configuration list for PBXProject "Raycasting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 983D8BA916ACC638008C72A4;
+			productRefGroup = 983D8BB516ACC638008C72A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983D8BB316ACC638008C72A4 /* Raycasting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983D8BB016ACC638008C72A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983D8BB916ACC638008C72A4 /* main.cpp in Sources */,
+				983D8BC816ACC688008C72A4 /* SDLMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		983D8BBC16ACC638008C72A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		983D8BBD16ACC638008C72A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		983D8BBF16ACC638008C72A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		983D8BC016ACC638008C72A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983D8BAE16ACC638008C72A4 /* Build configuration list for PBXProject "Raycasting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983D8BBC16ACC638008C72A4 /* Debug */,
+				983D8BBD16ACC638008C72A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983D8BBE16ACC638008C72A4 /* Build configuration list for PBXNativeTarget "Raycasting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983D8BBF16ACC638008C72A4 /* Debug */,
+				983D8BC016ACC638008C72A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983D8BAB16ACC638008C72A4 /* Project object */;
+}
